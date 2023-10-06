@@ -1,0 +1,405 @@
+:root {
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --section-background: #dad5d52c;
+
+}
+
+.parent_hero {
+    padding-top: 50px;
+
+}
+
+.parent_hero .container_hero {
+    width: 80%;
+    margin: auto;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.parent_hero .container_hero .box2 {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin-top: 30px;
+}
+
+.parent_hero .container_hero .box1 {
+    display: flex;
+    align-items: flex-start;
+    width: 1000px;
+}
+
+.parent_hero .container_hero .photo1 {
+
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.parent_hero .container_hero .photo1 .text_p {
+    position: absolute;
+    color: #2b3445;
+    font-size: 18px;
+    top: 30%;
+    right: 50%;
+}
+
+.parent_hero .container_hero .photo1 .text_p p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.parent_hero .container_hero .photo2 {
+
+    position: relative;
+}
+
+.parent_hero .container_hero .photo2 .text_p2 {
+    position: absolute;
+    color: #2b3445;
+    font-size: 18px;
+    top: 30%;
+    right: 50%;
+}
+
+.parent_hero .container_hero .photo2 .text_p2 p {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+span {
+    margin: 0;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 12px;
+    cursor: pointer;
+
+}
+
+span:hover {
+    font-size: 13px;
+
+
+}
+
+.MuiSvgIcon-root {
+    font-size: 14px;
+}
+
+
+@media (max-width:1120px) {
+    .parent_hero .container_hero .box2 {
+        display: none !important;
+    }
+
+    .parent_hero {
+        height: 60vh !important
+    }
+
+    .parent_hero .container_hero .box1 {
+        width: 100%;
+        align-items: center;
+
+    }
+
+}
+
+
+
+.SwiperSlide {
+    width: 100% !important;
+    position: relative;
+}
+
+.SwiperSlide:active {
+    cursor: grabbing;
+}
+
+.SwiperSlide .text-photo {
+    position: absolute;
+    left: 120px;
+    text-transform: uppercase;
+    top: 100px;
+    color: #2b3445;
+    transition: .3s;
+
+}
+
+.SwiperSlide .text-photo .p1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.SwiperSlide .text-photo .p2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+    font-weight: bold;
+
+}
+
+.SwiperSlide .text-photo .p3 {
+    font-size: 30px;
+    margin-bottom: 20px;
+
+}
+
+.SwiperSlide .text-photo .p4 {
+    text-transform: capitalize;
+    font-size: 15px;
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+
+
+
+.SwiperSlide .text-photo .buttonPhoto {
+    text-transform: capitalize;
+    font-size: 15px;
+    padding: 15px;
+    color: #044c87;
+    transition: .3s;
+    border: solid #044c87 1px;
+
+}
+
+.SwiperSlide .text-photo .buttonPhoto:hover {
+    color: var(--main-color);
+    border: solid var(--main-color) 1px;
+    border-radius: 5px;
+    transform: scale(1.03);
+    transition: .3s;
+}
+
+
+.SwiperSlide .text-photo span {
+    font-size: 20px;
+    color: var(--main-color);
+    transition: .3s;
+    cursor: pointer;
+}
+
+.SwiperSlide .text-photo span:hover {
+    color: red;
+}
+
+
+
+
+@media (max-width:1690px) {
+    .swiper {
+        width: 90% !important;
+    }
+
+    .parent_hero .container_hero .box1 {
+
+        margin-top: 20px !important;
+    }
+
+}
+
+@media (max-width:1637px) {
+    .swiper {
+        width: 100% !important;
+        margin-top: 15px !important;
+
+    }
+
+    .SwiperSlide .text-photo p {
+        margin: 0;
+
+    }
+
+    .parent_hero .container_hero .box2 {
+
+        margin-top: 20px !important;
+    }
+
+}
+
+
+@media (max-width:1637px) {
+
+    .parent_hero {
+        height: 70vh
+    }
+
+    .swiper {
+        width: 90% !important;
+        margin-top: 80px !important;
+        position: relative;
+        right: 160px;
+
+    }
+
+    .swiper .bpx1 {
+        margin: 0 !important;
+
+    }
+
+    .SwiperSlide .text-photo {
+
+        position: absolute;
+        top: 25px;
+        left: 25px;
+    }
+
+    .parent_hero .container_hero {
+        width: 80%;
+        margin: auto;
+        padding: 15px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        flex-direction: column;
+        top: -123px;
+    }
+
+    .parent_hero .container_hero .box2 {
+
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 115px;
+        right: -72px;
+        margin-top: 20px;
+        gap: 20px;
+    }
+
+    .parent_hero .container_hero .box2 img {
+        width: 80%;
+    }
+
+    .parent_hero .container_hero .box2 p {
+        margin: 0;
+        text-transform: uppercase;
+        top: -27px;
+        position: relative;
+        left: -33px;
+        font-size: 15px;
+    }
+
+    .parent_hero .container_hero .box2 span {
+        margin: 0;
+        text-transform: uppercase;
+        top: -27px;
+        position: relative;
+        left: -33px;
+        font-size: 10px;
+    }
+
+}
+
+@media (max-width:1120px) {
+    .swiper {
+        width: 90% !important;
+        margin-top: 80px !important;
+        position: relative;
+        right: -30px;
+
+    }
+
+    .parent_hero {
+        height: 50vh
+    }
+
+    .SwiperSlide .text-photo p {
+        display: none;
+
+    }
+
+    .SwiperSlide .text-photo .buttonPhoto {
+        transform: translate(90px, 152px);
+        transition: .3s;
+    }
+
+    .SwiperSlide .text-photo .buttonPhoto:hover {
+        transform: translate(90px, 152px);
+    }
+
+}
+
+@media (max-width:650px) {
+
+    .SwiperSlide .text-photo p {
+        display: none;
+
+    }
+
+    .SwiperSlide .text-photo .buttonPhoto {
+        display: none;
+    }
+
+}
+
+@media (max-width:1200px) {
+    .swiper {
+
+        width: 90% !important;
+        margin-top: 80px !important;
+        position: relative;
+        right: -30px;
+
+
+
+    }
+
+    .SwiperSlide .text-photo p {
+        font-size: 30px !important;
+        margin: 20px;
+
+    }
+
+    .parent_hero .container_hero .box2 {
+
+        display: none;
+    }
+
+
+}
+
+.iconsButtonPhoto {
+    top: 110%;
+}
+
+/* //==================================? */
+
+
+
+.containerIcon {
+    margin: 0;
+    padding: 0 !important;
+    width: 80% !important;
+    margin: auto;
+    padding-bottom: 15px !important;
+}
+
+
+.containerIcon .stackIcon {
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.containerIcon .stackIcon .MuiBox-root {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border-right: #2b3445 solid 1px;
+    padding: 10px 0 20px 0;
+
+}
+
+
+.containerIcon .stackIcon .MuiSvgIcon-root {
+
+    margin: 20px 0;
+}

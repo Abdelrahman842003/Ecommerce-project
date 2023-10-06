@@ -1,0 +1,31 @@
+footer {
+    width: 80%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.textFooter {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer p {
+    font-size: 18px;
+    color: white;
+
+}
+
+footer span {
+    margin: 0 10px;
+    font-size: 20px;
+    color: #166fe3;
+    text-transform: capitalize;
+    font-weight: bold;
+
+}
+footer span:hover {
+   font-size: 20px;
+
+}

@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: .2s;
+}
+
+:root {
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --section-background: #dad5d52c;
+
+}
+
+.Header1 {
+    box-shadow: 0 .1px 10px rgba(130, 127, 127, 0.933);
+    border-radius: 2px;
+
+}
+
+.Header1 .Container1 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header1 .Container1 .logo {
+    display: flex;
+    align-items: center;
+}
+
+.Header1 .Container1 .hot {
+    margin: 5px 25px 5px 0;
+    padding: 5px;
+    background-color: var(--main-color);
+    border-radius: 20px;
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.Header1 .Container1 .span2 {
+    color: var(--main-color);
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.icons div {
+    margin-left: 20px;
+}
+
+.menu {
+    margin: 0 !important;
+}
+
+.MuiListItem-root {
+    padding: 0 !important;
+    margin-top: 3px;
+    cursor: pointer;
+
+}
+
+.MuiButtonBase-root {
+    font-size: 11px !important;
+    padding: 3px 10px;
+    min-height: 10px;
+}
+
+@media (max-width:600px) {
+    .icons {
+        display: none;
+    }
+
+    .Header1 {
+        height: 45.58px;
+    }
+
+    .Header1 .Container1 .logo {
+        padding-left: 50px;
+    }
+
+}
+
+@media (max-width:300px) {
+    .Header1 .Container1 .logo {
+        padding-left: 0;
+    }
+}
+
+
+.Header2 {
+    border-radius: 3px;
+
+
+}
+
+.Header2 .Container2 {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+
+.box1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.box1 p {
+    margin: 0;
+}
+
+.box2 {
+    display: flex;
+    position: relative;
+
+}
+
+.SimpleListMenu2 {
+    position: relative;
+    top: -5px;
+
+}
+
+.FunSearch {
+    width: 500px;
+}
+
+.box3 {
+    display: flex;
+    align-items: center;
+
+}
+
+.box3 .PersonIcon {
+    margin-left: 20px;
+}
+
+
+
+@media (max-width:1120px) {
+    .Links {
+        display: none !important;
+    }
+}
+
+@media (min-width:1121px) {
+    .box02 {
+        display: none;
+    }
+}
+
+@media (max-width:1120px) {
+
+    .Header2 .Container2 {
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .box1 {
+        margin-bottom: 10px;
+    }
+
+    .box3 {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width:650px) {
+
+    .FunSearch {
+        width: 250px;
+    }
+
+}
+
+@media (max-width:500px) {
+
+    .FunSearch {
+        display: none;
+    }
+
+    .Header2 .Container2 {
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .SimpleListMenu2 {
+        display: none;
+    }
+}
+
+.Header3 {
+    box-shadow: 0 8px 8px rgba(130, 127, 127, 0.024);
+}
+
+.Container3 {
+    width: 80% !important;
+    margin: auto !important;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 0;
+}
+.Header3 .box01 {
+    padding: 2px;
+    border: #1786e065 1px solid;
+    transition: .3s;
+}
+.Header3 .box01:hover {
+    border: #1787e0 1px solid;
+    border-radius: 5px;
+}
+
+.Close {
+    width: 100%;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.Links {
+    display: flex;
+    margin: 5px 0;
+}
+
+.Links .MuiBox-root {
+    padding: 5px;
+    margin-left: 10px;
+}
+.Links .MuiBox-root .MuiTypography-root{
+   font-size: 15px !important;
+   transition: .35s;
+}
+.Links .MuiBox-root:hover {
+    
+    color: #1787e0;
+    transform: scale(1.03);
+}
+.MuiTypography-root:hover{
+    color: #1787e0;
+} 

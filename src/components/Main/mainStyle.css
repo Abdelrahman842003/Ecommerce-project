@@ -1,0 +1,177 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: .2s;
+}
+
+:root {
+    --main-color: #2196f3;
+    --main-color-alt: #1787e0;
+    --main-transition: 0.3s;
+    --section-background: #dad5d52c;
+
+}
+
+.parent_main {
+    padding: 50px 0;
+
+}
+
+.parent_main .container_main {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.parent_main .container_main .box1 {
+
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start ;
+    justify-content: space-between;
+}
+
+.parent_main .container_main .box1 p {
+
+    margin: 20px 0;
+}
+
+
+
+@media (max-width:1000px) {
+
+    .container_main .box1 {
+        display: flex;
+        flex-direction: column !important;
+        gap: 20px;
+        align-items: center !important;
+
+
+    }
+
+    .toggle {
+        margin-left: -0.6% !important;
+        margin-top: 3% !important;
+    }
+
+
+}
+
+.MuiToggleButtonGroup-root {
+    margin-left: 10px;
+}
+
+/* card */
+.containerCard {
+    background-color: #1787e0;
+    width: 400px;
+    height: 450px;
+
+}
+
+.CardMedia {
+
+    transition: 1s;
+}
+
+.CardMedia:hover {
+
+    transform: scale(1.04);
+
+}
+
+.parent_main .container_main .box2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;transition: .3ss;
+}
+
+
+
+.parent_cart .container_cart {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+.parent_cart .container_cart .header {
+    margin-top: 20px;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+
+}
+
+th,
+td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #cccccc47 !important;
+}
+
+th {
+    background-color: #f2f2f2;
+    color: #1787e0 !important;
+}
+
+
+
+td {
+    font-size: small !important;
+    color: #008cff !important;
+    transition: .3s;
+
+}
+
+.table-hover tr:hover {
+    background-color: #1786e0 !important;
+    color: white !important;
+}
+
+
+
+.table-hover th:hover {
+    color: white !important;
+    background-color: #1786e0 !important;
+}
+
+
+
+.table-hover td:hover {
+    color: white !important;
+    background-color: #1485e1 !important;
+}
+
+.pro {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+    transition: .3s;
+}
+
+.toggle {
+    margin-left: 55.4%;
+    margin-top: -6%;
+}
+
+.toggle .MuiToggleButtonGroup-grouped {
+    background-color: rgba(0, 115, 255, 0.145);
+    border: rgba(93, 93, 93, 0.393) 1px solid !important;
+    font-size: small;
+}
+
+
+.toggle .MuiToggleButtonGroup-grouped:hover {
+    background-color: rgba(0, 115, 255, 0.145) !important;
+    border: var(--main-color) 1px solid !important;
+    transform: scale(1.01);
+}
